@@ -1,0 +1,17 @@
+{
+"name": "Radiant Salon & Spa",
+"address": "123 Main St, Sample City",
+"phone": "+15550123",
+"hours": "Mon-Sat 9:00-19:00",
+"services": {
+"haircut": "₹500 - ₹1500",
+"balayage": "₹5000 - ₹8000",
+"color": "₹2000 - ₹6000",
+"manicure": "₹600",
+"pedicure": "₹800"
+},
+"policies": {
+"cancellation": "Please cancel at least 24 hours prior for a full refund.",
+"walkin": "Walk-ins accepted based on availability."
+}
+}
