@@ -15,7 +15,7 @@ from .models import (
     KnowledgeBaseEntry,
     HelpRequestState,
 )
-from .services.kb_service import KBService
+from .services.kb_services import KBService
 from .services.help_request_service import HelpRequestService
 from .services.notification_service import NotificationService
 from .ai_agent import AIAgent
