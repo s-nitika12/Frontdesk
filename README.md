@@ -1,4 +1,42 @@
-# Human-in-the-Loop AI Supervisor System — Full Setup & Design Guide
+# Human-in-the-Loop AI Voice Assistant — Production Ready 🎉
+
+## ⚡ Quick Start (Windows)
+
+**The easiest way to get started:**
+
+```powershell
+.\setup_and_run.ps1
+```
+
+This script will:
+- ✅ Create virtual environment
+- ✅ Install all dependencies
+- ✅ Initialize database
+- ✅ Seed demo data (optional)
+- ✅ Run backend and/or UI
+
+---
+
+## 📋 What's New - Recent Fixes
+
+### ✅ **Issues Fixed:**
+1. **Voice AI Integration** - Full LiveKit integration with real-time voice
+2. **Import Errors** - Fixed test file import paths
+3. **UTF-8 BOM** - Removed from .env file
+4. **CORS Support** - Added for frontend integration
+5. **Dependencies** - Complete and organized requirements.txt
+6. **Error Handling** - Improved throughout the system
+
+### 🆕 **New Features:**
+1. **Voice AI Agent** - Real-time voice conversations with LiveKit
+2. **Voice Endpoints** - REST API for voice room management
+3. **Health Check** - Monitor system status via `/health`
+4. **Setup Script** - Automated Windows PowerShell setup
+5. **Verification Tool** - Test all components with `verify_setup.py`
+
+📖 **See [FIXES_AND_IMPROVEMENTS.md](FIXES_AND_IMPROVEMENTS.md) for detailed documentation.**
+
+---
 
 ## Overview
 This system simulates a human-in-the-loop AI workflow for handling customer queries with automatic AI responses and supervisor intervention when needed. It uses **Python**, **Flask** for backend APIs, **Streamlit** for supervisor UI, **SQLite** via **SQLAlchemy** for database management, and a **LiveKit simulator** for call events.

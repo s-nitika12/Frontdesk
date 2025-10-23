@@ -9,6 +9,7 @@ class Config:
     # LiveKit credentials
     LIVEKIT_API_KEY = os.getenv("LIVEKIT_API_KEY", "")
     LIVEKIT_API_SECRET = os.getenv("LIVEKIT_API_SECRET", "")
+    LIVEKIT_URL = os.getenv("LIVEKIT_URL", "ws://localhost:7880")
 
     # Supervisor configuration
     SUPERVISOR_TTL_SECONDS = int(os.getenv("SUPERVISOR_TTL_SECONDS", "1800"))

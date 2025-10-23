@@ -1,10 +1,34 @@
+# Core Flask dependencies
 flask>=2.0
+flask-cors>=4.0
+
+# Database
 sqlalchemy>=1.4
 alembic>=1.8
+
+# Data validation
 pydantic>=1.10
+
+# UI
 streamlit>=1.20
+
+# HTTP requests
 requests>=2.28
+
+# Environment variables
 python-dotenv>=0.21
+
+# Testing
 pytest>=7.0
-#difflib2==0.0.3 # small shim; primary fuzzy matching uses stdlib difflib
-rapidfuzz>=2.13; extra == "fast" # optional, used if available
+
+# Fuzzy matching (optional but recommended)
+rapidfuzz>=2.13
+
+# LiveKit Voice AI (optional - install separately if needed)
+# Uncomment these lines to enable full voice AI features:
+# livekit>=0.10.0
+# livekit-api>=0.3.0
+# livekit-agents>=0.8.0
+# livekit-plugins-deepgram>=0.5.0
+# livekit-plugins-openai>=0.5.0
+# livekit-plugins-silero>=0.5.0

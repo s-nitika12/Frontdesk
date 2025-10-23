@@ -1,8 +1,15 @@
 import os
+import sys
 import tempfile
-from ..db import engine, SessionLocal
-from ..models import Base, Customer
-from ..services.help_request_service import HelpRequestService
+
+# Add project root to path
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+from backend.db import engine, SessionLocal
+from backend.models import Base, Customer
+from backend.services.help_request_service import HelpRequestService
 
 
 def setup_module(module):
